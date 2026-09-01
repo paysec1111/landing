@@ -21,9 +21,9 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "PaySec — Global Payment Infrastructure",
+  title: "Payzen — Global Payment Infrastructure",
   description:
-    "PaySec is a trusted payment service provider delivering high-performance banking infrastructure for merchants, PSPs, wallets, and marketplaces.",
+    "Payzen is a trusted payment service provider delivering high-performance banking infrastructure for merchants, PSPs, wallets, and marketplaces.",
 };
 
 export default function RootLayout({
