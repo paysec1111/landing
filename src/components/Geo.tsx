@@ -6,6 +6,13 @@ import Reveal from "./Reveal";
 
 const WorldMap = dynamic(() => import("./WorldMap"), { ssr: false });
 
+/** Рынки, где работаем сейчас (те же, что подсвечены на глобусе в WorldMap). */
+const MARKETS = [
+  { country: "Ukraine", currency: "UAH" },
+  { country: "Turkey", currency: "TRY" },
+  { country: "Azerbaijan", currency: "AZN" },
+];
+
 export default function Geo() {
   const statsRef = useRef<HTMLDivElement | null>(null);
   const animatedRef = useRef(false);
@@ -60,6 +67,20 @@ export default function Geo() {
             <p className="m-0 max-w-[400px] text-base leading-relaxed text-muted-1">
               One infrastructure that works everywhere we operate, built to expand as new markets come online.
             </p>
+
+            <ul className="m-0 flex list-none flex-wrap gap-2.5 p-0">
+              {MARKETS.map((m) => (
+                <li
+                  key={m.currency}
+                  className="flex items-center gap-2 border border-white/10 bg-panel px-3 py-1.5 font-mono text-xs text-muted-1"
+                >
+                  <span className="h-1.5 w-1.5 rounded-full bg-accent" />
+                  {m.country}
+                  <span className="text-muted-3">·</span>
+                  <span className="text-accent">{m.currency}</span>
+                </li>
+              ))}
+            </ul>
 
             <div className="mt-3 grid grid-cols-2 gap-5">
               <div>

@@ -22,7 +22,7 @@ const FAQS = [
   },
   {
     q: "Which countries do you operate in?",
-    a: "See the coverage map above for the markets we currently support, with more added as we expand.",
+    a: "Today we operate in Ukraine (UAH), Turkey (TRY) and Azerbaijan (AZN) — see the coverage map above. More markets are added as we expand.",
   },
 ];
 
