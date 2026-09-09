@@ -79,6 +79,9 @@ export default function Geo() {
               <div className="animate-pill-2 absolute top-12 right-0 rounded-full border border-accent/40 bg-accent/14 px-3.5 py-1.5 font-mono text-xs text-accent">
                 +80 UAH
               </div>
+              <div className="animate-pill-3 absolute top-[86px] left-0 rounded-full border border-accent/40 bg-accent/14 px-3.5 py-1.5 font-mono text-xs text-accent">
+                +50 AZN
+              </div>
               <div className="animate-coin-spin absolute bottom-0 left-4 h-[150px] w-[150px] [transform-style:preserve-3d]">
                 <svg width="150" height="150" viewBox="0 0 150 150" fill="none">
                   <circle cx="75" cy="75" r="70" fill="#1A1208" stroke="#FF6B1A" strokeWidth="2" />

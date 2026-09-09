@@ -11,8 +11,9 @@ const SVG_NS = "http://www.w3.org/2000/svg";
 const MARKERS = [
   { id: "792", name: "Turkey", coord: [35.2, 39.0] as [number, number] },
   { id: "804", name: "Ukraine", coord: [31.2, 48.9] as [number, number] },
+  { id: "031", name: "Azerbaijan", coord: [47.6, 40.3] as [number, number] },
 ];
-const HIGHLIGHTED: Record<string, boolean> = { "792": true, "804": true };
+const HIGHLIGHTED: Record<string, boolean> = { "792": true, "804": true, "031": true };
 
 export default function WorldMap() {
   const containerRef = useRef<HTMLDivElement | null>(null);

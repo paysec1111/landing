@@ -102,6 +102,7 @@ a:hover {
 .animate-pulse-dot { animation: pulseDot 2s ease-in-out infinite; }
 .animate-pill-1 { animation: floatPill1 4s ease-in-out infinite; }
 .animate-pill-2 { animation: floatPill2 5s ease-in-out 1.5s infinite; }
+.animate-pill-3 { animation: floatPill1 4.5s ease-in-out 2.5s infinite; }
 
 .fade-up {
   animation: fadeUp .7s cubic-bezier(.22, 1, .36, 1) both;
