@@ -15,7 +15,7 @@ export default function Nav() {
   return (
     <nav className="sticky top-0 z-50 flex justify-between bg-bg border-b border-white/10">
       <div className="flex items-center px-6 py-5 md:px-8 font-display font-extrabold text-base tracking-wide border-r border-white/10">
-        PAYZEN<span className="text-accent">.</span>
+        FIFTYPAY<span className="text-accent">.</span>
       </div>
 
       <div className="hidden lg:flex items-center gap-9 font-mono text-xs font-medium tracking-wider uppercase text-muted-2">

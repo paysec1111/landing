@@ -39,7 +39,7 @@ export default function Hero() {
         className="fade-up relative m-0 mb-9 max-w-full font-display font-bold text-[22px] leading-[1.35] text-muted-1 sm:text-2xl md:text-[26px] lg:max-w-[min(680px,calc(100%-480px))] lg:text-[30px]"
         style={{ animationDelay: "0.08s" }}
       >
-        Payzen is a trusted payment service provider delivering high-performance banking infrastructure.
+        FiftyPay is a trusted payment service provider delivering high-performance banking infrastructure.
       </h1>
 
       <div

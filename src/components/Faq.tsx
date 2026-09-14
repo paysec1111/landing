@@ -5,8 +5,8 @@ import Reveal from "./Reveal";
 
 const FAQS = [
   {
-    q: "What is Payzen?",
-    a: "Payzen is a payment service provider giving you access to acquiring, local payment methods, and payouts across our supported markets through a single API.",
+    q: "What is FiftyPay?",
+    a: "FiftyPay is a payment service provider giving you access to acquiring, local payment methods, and payouts across our supported markets through a single API.",
   },
   {
     q: "Who do you work with?",
@@ -70,7 +70,7 @@ export default function Faq() {
       </div>
 
       <div className="relative mt-10 overflow-hidden whitespace-nowrap font-display text-[min(24vw,220px)] leading-[0.8] font-black tracking-tight text-[#0f0f0f] uppercase select-none">
-        PAYZEN
+        FIFTYPAY
       </div>
     </Reveal>
   );

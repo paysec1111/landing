@@ -21,9 +21,9 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Payzen — Global Payment Infrastructure",
+  title: "FiftyPay — Global Payment Infrastructure",
   description:
-    "Payzen is a trusted payment service provider delivering high-performance banking infrastructure for merchants, PSPs, wallets, and marketplaces.",
+    "FiftyPay is a trusted payment service provider delivering high-performance banking infrastructure for merchants, PSPs, wallets, and marketplaces.",
 };
 
 export default function RootLayout({

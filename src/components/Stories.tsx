@@ -9,12 +9,12 @@ const STORIES = [
   {
     n: "02",
     title: "A PSP consolidating rails",
-    text: "Routes cross-border volume through Payzen instead of managing separate local banking relationships in every market.",
+    text: "Routes cross-border volume through FiftyPay instead of managing separate local banking relationships in every market.",
   },
   {
     n: "03",
     title: "A wallet automating payouts",
-    text: "Sets payout rules once and lets Payzen settle user balances in USD on schedule, with manual override when needed.",
+    text: "Sets payout rules once and lets FiftyPay settle user balances in USD on schedule, with manual override when needed.",
   },
 ];
 
@@ -23,7 +23,7 @@ export default function Stories() {
     <Reveal className="border-b border-white/10 px-6 py-16 sm:px-10 md:px-16 md:py-24">
       <p className="label">Built for</p>
       <h2 className="m-0 mb-12 max-w-[900px] font-display font-extrabold uppercase leading-[1.05] text-[clamp(32px,7vw,52px)] sm:text-[clamp(32px,4.4vw,52px)] md:mb-14">
-        Three ways teams put Payzen to work
+        Three ways teams put FiftyPay to work
       </h2>
 
       <div className="flex flex-col">
